@@ -39,7 +39,7 @@ h1 {
 .location {
     color: #c4f82a;
     font-weight: bold;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
 }
 
 .description {
@@ -47,8 +47,9 @@ h1 {
     margin-bottom: 1.9em;
 }
 
-.btn {
+button {
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
     background-color: #333333;
@@ -59,14 +60,15 @@ h1 {
     padding: 0.7em 0;
     margin-bottom: 1em;
     border-radius: 0.5em;
+    border: none;
 }
 
-.btn:last-child {
+button:last-child {
     margin-bottom: 2.5em;
 }
 
-.btn:hover,
-.btn:focus {
+button:hover,
+button:focus {
     background-color: #c4f82a;
     cursor: pointer;
     color: black;
