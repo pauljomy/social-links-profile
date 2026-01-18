@@ -33,4 +33,41 @@ img {
 
 h1 {
     margin-bottom: 0.6em;
+    font-size: 1.5rem;
+}
+
+.location {
+    color: #c4f82a;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.description {
+    font-size: 0.875rem;
+    margin-bottom: 1.9em;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    width: 304px;
+    height: 45px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.7em 0;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+.btn:last-child {
+    margin-bottom: 2.5em;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #c4f82a;
+    cursor: pointer;
+    color: black;
 }
