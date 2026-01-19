@@ -35,7 +35,7 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-section {
+main {
     width: 384px;
     display: flex;
     flex-direction: column;
