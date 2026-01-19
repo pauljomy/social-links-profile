@@ -1,7 +1,28 @@
-* {
+:root {
+    --light-bg-color: hsl(0, 0%, 8%);
+    --dark-bg-color: hsl(0, 0%, 20%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h6,
+figure,
+p {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -10,11 +31,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #141414;
+    background-color: var(--dark-bg-color);
     color: hsl(0, 0%, 100%);
 }
 
-.container {
+section {
     width: 384px;
     display: flex;
     flex-direction: column;
@@ -27,7 +48,7 @@ body {
 img {
     width: 88px;
     border-radius: 50%;
-    margin-top: 2.5em;
+    margin-block-start: clamp(1.5em, 2vw + 1em, 3em);
     margin-bottom: 2em;
 }
 
